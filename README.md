@@ -1,5 +1,6 @@
-# Zephyr-7b-beta
-Zephyr is a series of language models that are trained to act as helpful assistants. Zephyr-7B-β is the second model in the series, and is a fine-tuned version of mistralai/Mistral-7B-v0.1 that was trained on on a mix of publicly available, synthetic datasets using Direct Preference Optimization (DPO).
+# NeuralHermes 2.5 - Mistral 7B
+NeuralHermes is based on the teknium/OpenHermes-2.5-Mistral-7B model that has been further fine-tuned with Direct Preference Optimization (DPO) using the mlabonne/chatml_dpo_pairs dataset. It surpasses the original model on most benchmarks.
+It is directly inspired by the RLHF process described by Intel/neural-chat-7b-v3-1's authors to improve performance.
 
 ---
 ## Prerequisites
