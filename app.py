@@ -18,4 +18,4 @@ class InferlessPythonModel:
         return {'generated_result': result_output[0]}
 
     def finalize(self):
-        pass
+        self.llm = None
